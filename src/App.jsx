@@ -1,10 +1,15 @@
+import Navbar from "./components/navbar"
+import Hero from "./components/Hero"
+
 function App() {
+
   return (
     <>
-      <h1>Hello Manish 🚀</h1>
-      <p>Cybersecurity Portfolio Under Construction</p>
+      <Navbar />
+      <Hero />
     </>
   )
+
 }
 
 export default App
