@@ -32,7 +32,7 @@ return(
 <div className="hero-left">
 
 <h1>
-Hi, I'm <span className="highlight">Manish Dey</span>
+<span className="highlight">Manish Dey</span>
 </h1>
 
 <h2>
@@ -48,20 +48,49 @@ and building secure software systems.
 Download Resume
 </button>
 
+<div className="socials">
+    <a href="#"><i className="icon">G</i></a>
+    <a href="#"><i className="icon">L</i></a>
+    <a href="#"><i className="icon">T</i></a>
+    <a href="#"><i className="icon">Y</i></a>
+  </div>
+
 </div>
 
 <div className="hero-right">
 
-<div className="profile-circle">
+  <div className="profile-wrapper">
 
-<img
-src="https://i.pravatar.cc/300"
-alt="profile"
-/>
+    <img
+      src="https://i.pravatar.cc/300"
+      alt="profile"
+      className="profile-img"
+    />
+
+    <svg className="circle-svg" viewBox="0 0 300 300">
+
+      <circle
+        className="arc arc1"
+        cx="150"
+        cy="150"
+        r="140"
+        fill="none"
+      />
+
+      <circle
+        className="arc arc2"
+        cx="150"
+        cy="150"
+        r="140"
+        fill="none"
+      />
+
+    </svg>
+
+  </div>
 
 </div>
 
-</div>
 
 </section>
 
