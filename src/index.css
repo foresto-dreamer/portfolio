@@ -5,6 +5,8 @@ body{
 
 /* NAVBAR */
 
+/* NAVBAR */
+
 .navbar{
   display:flex;
   justify-content:space-between;
@@ -19,16 +21,46 @@ body{
   color:#00f7ff;
 }
 
+/* NAV LINKS */
+
 .nav-links{
   display:flex;
-  gap:30px;
+  gap:45px;
   list-style:none;
+  margin:0;
+  padding:0;
 }
 
 .nav-links li{
   cursor:pointer;
+  position:relative;
+  font-size:18px;
+  font-weight:500;
+  transition:0.3s;
 }
 
+/* hover color */
+
+.nav-links li:hover{
+  color:#00f7ff;
+}
+
+/* underline animation */
+
+.nav-links li::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  width:0;
+  height:2px;
+  background:#00f7ff;
+  transition:0.3s;
+}
+
+.nav-links li:hover::after{
+  width:100%;
+}
 
 /* HERO SECTION */
 
