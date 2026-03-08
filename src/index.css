@@ -46,6 +46,13 @@ html{
   margin:0;
   padding:0;
 }
+.nav-links a.active {
+  color:#00f7ff;
+}
+
+.nav-links a.active::after{
+  width:100%;
+}
 
 .nav-links li{
   cursor:pointer;
