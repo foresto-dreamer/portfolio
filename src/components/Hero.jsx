@@ -28,7 +28,7 @@ typed.destroy()
 
 return(
 
-<section className="hero">
+<section id="home" className="hero">
 
 <div className="hero-left">
 
