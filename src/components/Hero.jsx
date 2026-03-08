@@ -46,7 +46,7 @@ Passionate about cybersecurity, cloud computing,
 and building secure software systems.
 </p>
 
-<a href="/Resume.pdf" download>
+<a href="/Resume_Manishdey.pdf" download>
   <button className="btn">
     Download Resume
   </button>
