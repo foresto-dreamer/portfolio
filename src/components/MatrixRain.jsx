@@ -24,7 +24,7 @@ function draw(){
 ctx.fillStyle = "rgba(0,0,0,0.05)"
 ctx.fillRect(0,0,canvas.width,canvas.height)
 
-ctx.fillStyle = "#00f7ff"
+ctx.fillStyle = "rgba(255,40,40,0.55)"
 ctx.font = fontSize + "px monospace"
 
 for(let i = 0; i < drops.length; i++){

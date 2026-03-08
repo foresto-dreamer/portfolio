@@ -13,8 +13,22 @@ html{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:25px 12%;
-  background:#0a0a0a;
+
+  padding:20px 8%;
+
+  background:rgba(10,10,10,0.55);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+
+  border-bottom:1px solid rgba(255,255,255,0.06);
+
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+
+  box-sizing:border-box;   /* important fix */
+  z-index:1000;
 }
 
 .logo{
