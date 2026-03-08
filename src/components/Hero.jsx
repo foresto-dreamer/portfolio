@@ -79,9 +79,9 @@ and building secure software systems.
   <div className="profile-wrapper">
 
     <img
-      src="/profile.png"
-      alt="profile"
-      className="profile-img"
+        src={`${import.meta.env.BASE_URL}profile.png`}
+        alt="Manish Dey"
+        className="profile-img"
     />
 
     <svg className="circle-svg" viewBox="0 0 300 300">
