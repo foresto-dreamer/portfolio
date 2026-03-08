@@ -53,19 +53,19 @@ Download Resume
 <div className="socials">
 
   <a href="https://github.com/foresto-dreamer" target="_blank">
-    <FaGithub className="icon" />
+    <FaGithub className="icon github" />
   </a>
 
   <a href="https://www.linkedin.com/in/manish-dey87" target="_blank">
-    <FaLinkedin className="icon" />
+    <FaLinkedin className="icon linkedin" />
   </a>
 
   <a href="https://instagram.com/manishdey_87" target="_blank">
-    <FaInstagram className="icon" />
+    <FaInstagram className="icon instagram" />
   </a>
 
   <a href="mailto:manishdey356@gmail.com">
-    <MdEmail className="icon" />
+    <MdEmail className="icon gmail" />
   </a>
 
 </div>
