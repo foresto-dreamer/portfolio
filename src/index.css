@@ -230,10 +230,11 @@ html{
 }
 
 .hero-left p{
-  color:#b0b0b0;
-  font-size:16px;
-  margin-top:20px;
-  max-width:520px;
+  color:#cfcfcf;
+  font-size:19px;
+  line-height:1.7;
+  margin-top:22px;
+  max-width:600px;
 }
 
 .socials{
