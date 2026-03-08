@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react"
 import Typed from "typed.js"
-import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa"
+import { MdEmail } from "react-icons/md"
 
 function Hero(){
 
@@ -55,16 +56,16 @@ Download Resume
     <FaGithub className="icon" />
   </a>
 
-  <a href="#">
+  <a href="https://www.linkedin.com/in/manish-dey87" target="_blank">
     <FaLinkedin className="icon" />
   </a>
 
-  <a href="#">
-    <FaTwitter className="icon" />
+  <a href="https://instagram.com/manishdey_87" target="_blank">
+    <FaInstagram className="icon" />
   </a>
 
-  <a href="#">
-    <FaYoutube className="icon" />
+  <a href="mailto:manishdey356@gmail.com">
+    <MdEmail className="icon" />
   </a>
 
 </div>

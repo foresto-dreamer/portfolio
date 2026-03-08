@@ -6,7 +6,6 @@ body{
 html{
   scroll-behavior:smooth;
 }
-/* NAVBAR */
 
 /* NAVBAR */
 
@@ -42,6 +41,14 @@ html{
   transition:0.3s;
 }
 
+.nav-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover{
+  color:#00f7ff;
+}
 /* hover color */
 
 .nav-links li:hover{
@@ -59,6 +66,10 @@ html{
   height:2px;
   background:#00f7ff;
   transition:0.3s;
+}
+
+.nav-links a{
+  position:relative;
 }
 
 .nav-links li:hover::after{
