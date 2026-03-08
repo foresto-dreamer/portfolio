@@ -81,9 +81,9 @@ body{
 }
 
 .hero-left h2{
-  margin-top:10px;
-  font-size:28px;
-  color:#00f7ff;
+  font-size:32px;
+  font-weight:600;
+  color:white;
 }
 
 .hero-left p{
@@ -92,6 +92,12 @@ body{
   max-width:500px;
 }
 
+.role{
+  color:#ff2e63;
+  text-shadow:0 0 10px #ff2e63,
+              0 0 20px #ff2e63;
+  font-family: 'Orbitron', sans-serif;
+}
 
 /* TEXT HIGHLIGHT */
 

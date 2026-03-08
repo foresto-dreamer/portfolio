@@ -36,7 +36,7 @@ return(
 </h1>
 
 <h2>
-I'm a <span ref={textRef}></span>
+  I'm a <span className="role" ref={textRef}></span>
 </h2>
 
 <p>
