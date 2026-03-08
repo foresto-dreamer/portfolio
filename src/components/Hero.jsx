@@ -77,7 +77,7 @@ Download Resume
   <div className="profile-wrapper">
 
     <img
-      src="https://i.pravatar.cc/300"
+      src="/profile.png"
       alt="profile"
       className="profile-img"
     />
