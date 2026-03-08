@@ -4,7 +4,7 @@ function Navbar() {
     <nav className="navbar">
 
       <div className="logo">
-        Manish.exe
+        My Portfolio
       </div>
 
       <ul className="nav-links">
