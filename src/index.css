@@ -36,8 +36,9 @@ html{
 .nav-links li{
   cursor:pointer;
   position:relative;
-  font-size:18px;
-  font-weight:500;
+  font-size:26px;   /* increased */
+  font-weight:600;
+  letter-spacing:1px;
   transition:0.3s;
 }
 
@@ -277,4 +278,14 @@ html{
   background:#EA4335;
   color:white;
   box-shadow:0 0 12px #EA4335;
+}
+
+
+#matrix{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
 }

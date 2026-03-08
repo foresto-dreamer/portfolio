@@ -46,9 +46,11 @@ Passionate about cybersecurity, cloud computing,
 and building secure software systems.
 </p>
 
-<button className="btn">
-Download Resume
-</button>
+<a href="/Resume.pdf" download>
+  <button className="btn">
+    Download Resume
+  </button>
+</a>
 
 <div className="socials">
 
