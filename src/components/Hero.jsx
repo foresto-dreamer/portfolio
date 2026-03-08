@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react"
 import Typed from "typed.js"
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa"
 
 function Hero(){
 
@@ -49,11 +50,24 @@ Download Resume
 </button>
 
 <div className="socials">
-    <a href="#"><i className="icon">G</i></a>
-    <a href="#"><i className="icon">L</i></a>
-    <a href="#"><i className="icon">T</i></a>
-    <a href="#"><i className="icon">Y</i></a>
-  </div>
+
+  <a href="https://github.com/foresto-dreamer" target="_blank">
+    <FaGithub className="icon" />
+  </a>
+
+  <a href="#">
+    <FaLinkedin className="icon" />
+  </a>
+
+  <a href="#">
+    <FaTwitter className="icon" />
+  </a>
+
+  <a href="#">
+    <FaYoutube className="icon" />
+  </a>
+
+</div>
 
 </div>
 
